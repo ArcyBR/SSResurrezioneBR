@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arcangelo\\source\\repos\\ArcyBR\\SSResurrezioneBR\\SSResurrezioneBR.csproj": {}
+    "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\SSResurrezioneBR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arcangelo\\source\\repos\\ArcyBR\\SSResurrezioneBR\\SSResurrezioneBR.csproj": {
+    "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\SSResurrezioneBR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arcangelo\\source\\repos\\ArcyBR\\SSResurrezioneBR\\SSResurrezioneBR.csproj",
+        "projectUniqueName": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\SSResurrezioneBR.csproj",
         "projectName": "SSResurrezioneBR",
-        "projectPath": "C:\\Users\\Arcangelo\\source\\repos\\ArcyBR\\SSResurrezioneBR\\SSResurrezioneBR.csproj",
+        "projectPath": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\SSResurrezioneBR.csproj",
         "packagesPath": "C:\\Users\\Arcangelo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arcangelo\\source\\repos\\ArcyBR\\SSResurrezioneBR\\obj\\",
+        "outputPath": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

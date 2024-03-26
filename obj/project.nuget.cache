@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/OjjXfaxbPrkneAhd9NxT3mhrWVQ8eViKW4XBVE68Nhh9jz0wmQCcZUyl72sbxKywW/TejzuenjEYfSsgthj/g==",
+  "dgSpecHash": "lPLvz+3hJQXbL2kLCmDEKjkGJ4YRG+aXuelo0vGF285m/m6qA1rXGvxTnGaPJhETJYydts3QBFcMeHOq9GrIyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arcangelo\\source\\repos\\ArcyBR\\SSResurrezioneBR\\SSResurrezioneBR.csproj",
+  "projectFilePath": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\SSResurrezioneBR.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arcangelo\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\Arcangelo\\.nuget\\packages\\anglesharp.css\\0.17.0\\anglesharp.css.0.17.0.nupkg.sha512",
