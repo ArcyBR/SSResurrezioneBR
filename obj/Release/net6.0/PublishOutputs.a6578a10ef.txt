@@ -1,0 +1,8 @@
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\PubTmp\Out\Sito SSResurrezioneBR.exe
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\PubTmp\Out\libman.json
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\PubTmp\Out\Sito SSResurrezioneBR.dll
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\PubTmp\Out\Sito SSResurrezioneBR.deps.json
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\PubTmp\Out\Sito SSResurrezioneBR.runtimeconfig.json
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\PubTmp\Out\Sito SSResurrezioneBR.pdb

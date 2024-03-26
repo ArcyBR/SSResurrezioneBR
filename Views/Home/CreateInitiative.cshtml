@@ -1,0 +1,23 @@
+@model CreateInitiativeInputModel
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="post">
+    <div class="row">
+        <div class="col-12">
+            <div asp-validation-summary="All"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <input type="text" asp-for="Image_Content_Title" class="form-control form-control-lg" placeholder="Inserisci il titolo dell'iniziativa">
+            <span asp-validation-for="Image_Content_Title"></span>
+        </div>
+        <div class="col-md-4">
+            <button type="submit" class="btn btn-primary btn-lg btn-block"><i class="fas fa-rocket"></i> Crea</button>
+        </div>
+    </div>
+</form>
+@section Scripts{
+    <partial name="_Validation"></partial>
+}

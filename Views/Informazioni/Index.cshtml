@@ -1,0 +1,54 @@
+﻿@model dynamic
+<div class="text-center">
+  <p><h2>@ViewData["Title"]</h2></p>
+</div>
+<section>
+    <div class="row">
+        <div class="col-md-5">
+            <p> <i class="fas fa-info-circle"></i> Denominazione Ufficiale: @Model.Informazioni.DenominazioneUfficiale</p>
+            <p> <i class="fas fa-exclamation-circle"></i> Altra Denominazione: @Model.Informazioni.DenominazioneAltra</p>
+            <p> <i class="far fa-folder-open"></i> Tipo: @Model.Informazioni.Tipo</p>
+            <p> <i class="fas fa-phone"></i> Telefono: @Model.Informazioni.Telefono</p>
+            <p> <i class="fas fa-mail-bulk"></i> Email: @Model.Informazioni.Email</p>
+            <p> <i class="fas fa-street-view"></i> Indirizzo @Model.Informazioni.Indirizzo</p>
+            <p> 
+                <i class="fas fa-clock"></i> Orario Santa Messa:
+                <ul>
+                    <li>Giorni Feriali: ore 19.30</li>
+                    <li>Giorni Festivi: ore 8.30 e 19.30</li>
+                </ul>
+            </p>
+            <p> 
+                <i class="fas fa-business-time"></i> Ufficio Parrocchiale:
+                <ul>
+                    <li>Lun-Mer-Ven: 9.30-10.30</li>
+                    <li>Lun-Mar-Sab: 18.30-19.15</li>
+                    <li>Giovedì e Domenica: Chiuso</li>
+                </ul>
+            </p>
+            <p> 
+                <i class="fas fa-church"></i> Apertura Parrocchia:
+                <ul>
+                    <li>Giorni Feriali: 08.00 - 11.00; 17.30 - 20.00</li>
+                    <li>Giorni Festivi: 08.00 - 10.30; 17.30 - 20.30</li>
+                </ul>
+            </p>
+            <p> <i class="fab fa-facebook"></i> <a href="@Model.Informazioni.Facebook">Facebook</a></p>
+            <p> <i class = "fab fa-instagram-square"></i> <a href="@Model.Informazioni.Instagram">Instagram</a></p>
+            <hr>
+            <b><i>Incarichi</i></b><br />
+
+            @foreach (IncaricoViewModel incarico in Model.Incarichi){
+                <b><a href="@incarico.LinkDiocesi" target="_blank" rel=noopener>@incarico.Cognome @incarico.Titolo @incarico.Nome</a></b><span>:</span> @incarico.Incarico<br />        
+            }
+
+        </div>
+        <div class="col-md-7">
+             <div class="d-flex justify-content-center">
+            <aside class="customShadow">
+                <iframe class="custoShadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.7841368156905!2d17.927203314770136!3d40.63464225028261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13467bba419b46d1%3A0x9f2841447ae9442e!2sChiesa%20SS.%20Resurrezione!5e0!3m2!1sit!2sit!4v1681109398929!5m2!1sit!2sit" width="550" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </aside>
+            </div>
+        </div>
+    </div>
+</section>

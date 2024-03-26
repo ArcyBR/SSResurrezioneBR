@@ -1,0 +1,32 @@
+D:\Sito SSResurrezioneBR\bin\Release\net6.0\appsettings.Development.json
+D:\Sito SSResurrezioneBR\bin\Release\net6.0\appsettings.json
+D:\Sito SSResurrezioneBR\bin\Release\net6.0\libman.json
+D:\Sito SSResurrezioneBR\bin\Release\net6.0\Sito SSResurrezioneBR.staticwebassets.runtime.json
+D:\Sito SSResurrezioneBR\bin\Release\net6.0\Sito SSResurrezioneBR.exe
+D:\Sito SSResurrezioneBR\bin\Release\net6.0\Sito SSResurrezioneBR.deps.json
+D:\Sito SSResurrezioneBR\bin\Release\net6.0\Sito SSResurrezioneBR.runtimeconfig.json
+D:\Sito SSResurrezioneBR\bin\Release\net6.0\Sito SSResurrezioneBR.dll
+D:\Sito SSResurrezioneBR\bin\Release\net6.0\Sito SSResurrezioneBR.pdb
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\Sito SSResurrezioneBR.csproj.AssemblyReference.cache
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\Sito SSResurrezioneBR.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\Sito SSResurrezioneBR.AssemblyInfoInputs.cache
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\Sito SSResurrezioneBR.AssemblyInfo.cs
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\Sito SSResurrezioneBR.csproj.CoreCompileInputs.cache
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\Sito SSResurrezioneBR.MvcApplicationPartsAssemblyInfo.cache
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\Sito SSResurrezioneBR.RazorAssemblyInfo.cache
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\Sito SSResurrezioneBR.RazorAssemblyInfo.cs
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\staticwebassets\msbuild.Sito SSResurrezioneBR.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\staticwebassets\msbuild.build.Sito SSResurrezioneBR.props
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.Sito SSResurrezioneBR.props
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.Sito SSResurrezioneBR.props
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\staticwebassets.pack.json
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\staticwebassets.build.json
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\staticwebassets.development.json
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\scopedcss\bundle\Sito SSResurrezioneBR.styles.css
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\scopedcss\projectbundle\Sito SSResurrezioneBR.bundle.scp.css
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\Sito SSResurrezioneBR.dll
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\refint\Sito SSResurrezioneBR.dll
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\Sito SSResurrezioneBR.pdb
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\Sito SSResurrezioneBR.genruntimeconfig.cache
+D:\Sito SSResurrezioneBR\obj\Release\net6.0\ref\Sito SSResurrezioneBR.dll

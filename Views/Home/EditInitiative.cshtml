@@ -1,0 +1,109 @@
+@model ImgForCarouselEditInputModel
+<section class="imgForCarousel-info">
+    <form method="post" asp-controller="Home" asp-action="EditInitiative" enctype="multipart/form-data">
+        <input type="hidden" asp-for="RowVersion" />
+        <div class="row p-2">
+            <div class="col-md-10">
+                <h1>@ViewData["Title"]</h1>
+            </div>
+            <div class="col-md-1 d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary btn-lg btn-block"><i class="fa-regular fa-floppy-disk"></i> Salva</button>
+            </div>
+            <div class="col-md-1 d-flex justify-content-center">
+                <button type="button" class="btn btn-warning btn-lg"><a style="text-decoration: none;" asp-controller="ImgForCarousel" asp-action="Index" asp-route-id="@Model.ImageId"><i class="fas far fa-rotate-left"></i>Annulla</a></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" asp-validation-summary="All"></div>
+        </div>
+        <input type="hidden" asp-for="ImageId">
+        <input type="hidden" asp-for="ImageEventCreator" value="me medesimo modiica">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="ImageContentTitle"></label>
+                    <input type="text" class="form-control form-control-lg" asp-for="ImageContentTitle">
+                    <span asp-validation-for="ImageContentTitle"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImageLabel"></label>
+                    <input type="text" class="form-control" asp-for="ImageLabel">
+                    <span asp-validation-for="ImageLabel"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="ImageContentDescription"></label>
+                    <textarea data-summernote rows="10" class="form-control"  asp-for="ImageContentDescription"></textarea>
+                    <span asp-validation-for="ImageContentDescription"></span>
+                </div>
+                <div class="form-group">
+                    @{
+                        if (!string.IsNullOrEmpty(Model.ImagePath))
+                        {
+                            <label asp-for="ImagePath"></label>
+                            <div class="preview-container">
+                                <img id="previewImage" src="\@Model.ImagePath" asp-append-version="true"/>
+                            </div>
+                        }
+                    }
+                    <div class="custom-file pt-3">
+                        <label class="custom-file-label" asp-for="Image"></label>
+                        <input type="file" id="uploadInput" class="custom-file-input" asp-for="Image" onchange="handleImageUpload(event)">
+                        <p><small>L'immagine verrá ridimensionata per adeguarla al sito.</small></p>
+                        <span asp-validation-for="Image"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+@section Scripts{
+    <partial name="_Summernote"></partial>
+    <partial name="_Validation"></partial>
+    <script>
+        function handleImageUpload(event) {
+            const input = event.target;
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+
+                reader.onload = function (e) {
+                    const img = new Image();
+                    img.src = e.target.result;
+
+                    img.onload = function () {
+                        const canvas = document.createElement('canvas');
+                        const ctx = canvas.getContext('2d');
+
+                        // Imposta le dimensioni desiderate per l'anteprima
+                        const maxWidth = 546;
+                        const maxHeight = 410;
+
+                        let newWidth = img.width;
+                        let newHeight = img.height;
+
+                        // Ridimensiona l'immagine se supera le dimensioni massime
+                        if (img.width > maxWidth || img.height > maxHeight) {
+                            const aspectRatio = img.width / img.height;
+                            if (aspectRatio > 1) {
+                                newWidth = maxWidth;
+                                newHeight = maxWidth / aspectRatio;
+                            } else {
+                                 newHeight = maxHeight;
+                                newWidth = maxHeight * aspectRatio;
+                            }
+                        }
+
+                        canvas.width = newWidth;
+                        canvas.height = newHeight;
+
+                        ctx.drawImage(img, 0, 0, newWidth, newHeight);
+
+                        // Mostra l'anteprima nell'elemento immagine
+                        const previewImage = document.getElementById('previewImage');
+                         previewImage.src = canvas.toDataURL('image/jpeg');
+                    };
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+}

@@ -1,0 +1,102 @@
+﻿@model dynamic
+@{
+    var santoDiOggi =string.Concat("Oggi ", DateTime.Now.ToString("dddd, dd MMMM yyyy"), " la Chiesa ricorda ");
+}
+
+<div class="text-center">
+    @if (DateTime.Now.Hour<12)
+    {
+        <p><H5 class="textRotate">Buongiorno. @santoDiOggi <span class="rotate">@Model.santiDelGiorno</span></H5></p>
+    }
+    else if (DateTime.Now.Hour<17)
+    {
+        <p><H5 class="textRotate">Buon Pomeriggio. @santoDiOggi <span class="rotate">@Model.santiDelGiorno</span></h5></p> 
+    }else{
+        <p><H5 class="textRotate">Buonasera. @santoDiOggi <span class="rotate">@Model.santiDelGiorno</span></H5></p>
+    }
+</div>
+<section>
+    <div class="row">
+        <div class="col-md-1">
+            &nbsp; <!-- TODO: andra' messo il pulsante elimina -->
+        </div>
+        <div class="col-md-5">
+            <div class="row p-2">
+                <div style="color:#466db8;" class="col-md-12  d-flex justify-content-center"> 
+                    <h5><b>INIZIATIVE IN CORSO</b></h5>&nbsp;
+                </div>
+            </div>
+            <div class="d-flex justify-content-center customShadow">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide w-100">
+                    <div class="carousel-indicators">
+                        @{
+                            int i = 0;                  
+                            foreach (ImgForCarouselViewModel imgForCarouselViewModel in Model.imgForCarousel) 
+                            {
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="@i" @(i == 0 ? "class=active" : "") @(i == 0 ? "aria-current=true" : "") aria-label="@imgForCarouselViewModel.ImageLabel"></button>
+                                i++;
+                            };
+                        }         
+                    </div>
+                    <div class="carousel-inner">
+                    @{
+                        
+                        i = 0;
+                        foreach (ImgForCarouselViewModel imgForCarouselViewModel in Model.imgForCarousel)
+                        {                       
+                            if (i == 0)
+                            {
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="@imgForCarouselViewModel.ImagePath" class="d-block w-100" alt="@imgForCarouselViewModel.ImageLabel" asp-append-version="true">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>@imgForCarouselViewModel.ImageLabel</h5>
+                                        <p>
+                                            <a asp-area="" asp-controller="ImgForCarousel" asp-action="Index" asp-route-id="@imgForCarouselViewModel.ImageId">@imgForCarouselViewModel.ImageContentTitle</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            }else{                             
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="@imgForCarouselViewModel.ImagePath" class="d-block w-100" alt="@imgForCarouselViewModel.ImageLabel" asp-append-version="true">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>@imgForCarouselViewModel.ImageLabel</h5>
+                                        <p>
+                                            <a asp-area="" asp-controller="ImgForCarousel" asp-action="Index" asp-route-id="@imgForCarouselViewModel.ImageId">@imgForCarouselViewModel.ImageContentTitle</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            }                             
+                            i++;
+                        };
+                    }
+                    </div>            
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="row p-2">
+                <div class="col-md-12 container d-flex justify-content-center">
+                    <a class="btn btn-outline-primary btn-sm" asp-action="CreateInitiative"><i class="fas fa-plus"></i> Crea nuova</a>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex justify-content-center customShadow">
+                <aside>
+                    <img src="@Model.appuntamentiDellaSettimana.PathFoto" class="d-block w-100" alt="Appuntamenti della settimana" asp-append-version="true" />
+                </aside>
+            </div>
+            <div class="row p-2">
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-outline-primary btn-sm mr-5" asp-controller="Home" asp-action="EditAppuntamentiDellaSettimana" asp-route-id="@Model.appuntamentiDellaSettimana.IdFoto"><i class="fas fa-pencil-alt"></i> Modifica</a>
+                </div>  
+            </div>
+          </div>
+      </div>
+</section>

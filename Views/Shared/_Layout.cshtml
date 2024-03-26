@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SS. Resurrezione Brindisi</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/SSResurrezioneBR.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/simpletextrotator.css" asp-append-version="true" />
+</head>
+<body class="p-2 m-0 border-0">
+    <header>
+        <div class="bg-image p-1 rounded mb-1" style="background-image: url('/img/internoChiesaSfocata.png'); background-size:cover; background-repeat: no-repeat; background-position: right;">
+            <div class="align-items-center">
+                <div style="margin-left: 3%;">       
+                    <img src="/img/immagine_Cristo_esterno_chiesa.png" style="height: 47vh" alt="Immagine Cristo Risorto" asp-append-version="true">
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-1 rounded" style="background-color: rgba(229, 200, 153, 0.6)">
+            <div class="container-fluid">
+                <a data-bs-placement="bottom" data-bs-toggle="tooltip" title="Home Page" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="/img/church.png" height="60" alt="Parrocchia SS. Resurrezione Brindisi" asp-append-version="true"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Informazioni" asp-action="Index">Informazioni</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-route-chiamante="Almanacco" asp-area="" asp-controller="Almanacco" asp-action="Index">Almanacco</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a href="#" class="nav-link text-dark dropdown-toggle" data-bs-toggle="dropdown">Gruppi</a>
+                        <div class="dropdown-menu">
+                            <a asp-area="" asp-route-chiamante="CoroPolifonicoMaterMisericordie" asp-controller="CoroPolifonicoMaterMisericordie" asp-action="Index" class="dropdown-item">Coro Polifonico Mater Misericordie</a>
+                            <!--
+                            <a href="#" class="dropdown-item">Drafts</a>
+                            <a href="#" class="dropdown-item">Sent Items</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#"class="dropdown-item">Trash</a>
+                            -->
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="/img/ParrocchiaSSResurrezioneText.png" style="height: 60px" alt="Parrocchia SS. Resurrezione Brindisi" asp-append-version="true"> 
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-2">
+            @if(TempData["MessaggioDiConferma"]!=null)
+            {
+                <div class="alert alert-success alert-dismissble mt-3" role="alert">
+                    @TempData["MessaggioDiConferma"]
+                </div>
+            }
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - Parrocchia SS. Resurrezione Brindisi - <a asp-area="" asp-controller="Informazioni" asp-action="Index">Informazioni</a>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="~/lib/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+<script src="~/lib/font-awesome/js/fontawesome.min.js" type="text/javascript"></script>
+<script src="~/js/site.js" asp-append-version="true" type="text/javascript"></script>
+
+<script src="~/lib/jquery/dist/jquery.simple-text-rotator.js" type="text/javascript"></script>
+<script src="~/lib/jquery/dist/jquery.simple-text-rotator.js" type="text/javascript"></script>
+
+@await RenderSectionAsync("Scripts", required: false)
+
+<script>
+$(document).ready(function(){
+    $(".textRotate .rotate").textrotator({
+        animation: "fade",
+        speed: 3000
+    });
+        $('[data-bs-toggle="tooltip"]').tooltip();
+});
+</script>

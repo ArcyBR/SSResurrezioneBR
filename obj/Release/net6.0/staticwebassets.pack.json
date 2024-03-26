@@ -1,0 +1,669 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\SSResurrezioneBR.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SSResurrezioneBR.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\css\\simpletextrotator.css",
+      "PackagePath": "staticwebassets\\css\\simpletextrotator.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\Natale_2021_23_12_2021\\Natale_2021_23_12_2021_1.jpg",
+      "PackagePath": "staticwebassets\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\Natale_2021_23_12_2021\\Natale_2021_23_12_2021_1.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\Natale_2021_23_12_2021\\Natale_2021_23_12_2021_2.jpg",
+      "PackagePath": "staticwebassets\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\Natale_2021_23_12_2021\\Natale_2021_23_12_2021_2.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\Natale_2021_23_12_2021\\Natale_2021_23_12_2021_3.jpg",
+      "PackagePath": "staticwebassets\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\Natale_2021_23_12_2021\\Natale_2021_23_12_2021_3.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\debutto_16_06_2019\\debutto_16_06_2019_1.jpg",
+      "PackagePath": "staticwebassets\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\debutto_16_06_2019\\debutto_16_06_2019_1.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\debutto_16_06_2019\\debutto_16_06_2019_2.jpg",
+      "PackagePath": "staticwebassets\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\debutto_16_06_2019\\debutto_16_06_2019_2.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\omaggio_a_Maria_27_02_2020\\omaggio_a_Maria_27_02_2020_1.jpg",
+      "PackagePath": "staticwebassets\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\omaggio_a_Maria_27_02_2020\\omaggio_a_Maria_27_02_2020_1.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\omaggio_a_Maria_27_02_2020\\omaggio_a_Maria_27_02_2020_2.jpg",
+      "PackagePath": "staticwebassets\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\omaggio_a_Maria_27_02_2020\\omaggio_a_Maria_27_02_2020_2.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\pacem_in_terris_14_12_2019\\pacem_in_terris_14_12_2019_1.jpg",
+      "PackagePath": "staticwebassets\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\pacem_in_terris_14_12_2019\\pacem_in_terris_14_12_2019_1.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\pacem_in_terris_14_12_2019\\pacem_in_terris_14_12_2019_2.jpg",
+      "PackagePath": "staticwebassets\\img\\Gruppi\\CoroPolifonicoMaterMisericordie\\pacem_in_terris_14_12_2019\\pacem_in_terris_14_12_2019_2.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\coro.jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\coro.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\depositphotos_26906339-stock-photo-seafront-brindisi-puglia-italy.jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\depositphotos_26906339-stock-photo-seafront-brindisi-puglia-italy.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\donAndrea.jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\donAndrea.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\facciata.jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\facciata.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\image.jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\image.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\immagine_Cristo_esterno_chiesa_2.png",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\immagine_Cristo_esterno_chiesa_2.png"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\immagine_Cristo_esterno_chiesa_con_sfondo.jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\immagine_Cristo_esterno_chiesa_con_sfondo.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\interno.jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\interno.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\interno2.jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\interno2.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\internoChiesaSfocata2.png",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\internoChiesaSfocata2.png"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\interno_chiesa_3(2).jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\interno_chiesa_3(2).jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\interno_chiesa_3(3).jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\interno_chiesa_3(3).jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\interno_chiesa_3.jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\interno_chiesa_3.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\vista_porto.jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\vista_porto.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\vista_porto_90.jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\vista_porto_90.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Immagini_di_prova\\vista_porto_90_con_testo.jpg",
+      "PackagePath": "staticwebassets\\img\\Immagini_di_prova\\vista_porto_90_con_testo.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Inv_SS_Cresimandi_27_05_2023\\inv_SS_cresimandi_27_05_2023_1.jpg",
+      "PackagePath": "staticwebassets\\img\\Inv_SS_Cresimandi_27_05_2023\\inv_SS_cresimandi_27_05_2023_1.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Inv_SS_Cresimandi_27_05_2023\\inv_SS_cresimandi_27_05_2023_2.jpg",
+      "PackagePath": "staticwebassets\\img\\Inv_SS_Cresimandi_27_05_2023\\inv_SS_cresimandi_27_05_2023_2.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Inv_SS_Cresimandi_27_05_2023\\inv_SS_cresimandi_27_05_2023_3.jpg",
+      "PackagePath": "staticwebassets\\img\\Inv_SS_Cresimandi_27_05_2023\\inv_SS_cresimandi_27_05_2023_3.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Inv_SS_Cresimandi_27_05_2023\\inv_SS_cresimandi_27_05_2023_4.jpg",
+      "PackagePath": "staticwebassets\\img\\Inv_SS_Cresimandi_27_05_2023\\inv_SS_cresimandi_27_05_2023_4.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\ParrocchiaSSResurrezioneText.png",
+      "PackagePath": "staticwebassets\\img\\ParrocchiaSSResurrezioneText.png"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Trani_25_04_2023\\trani_25_04_2023_1.jpg",
+      "PackagePath": "staticwebassets\\img\\Trani_25_04_2023\\trani_25_04_2023_1.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Trani_25_04_2023\\trani_25_04_2023_2.jpg",
+      "PackagePath": "staticwebassets\\img\\Trani_25_04_2023\\trani_25_04_2023_2.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Trani_25_04_2023\\trani_25_04_2023_3.jpg",
+      "PackagePath": "staticwebassets\\img\\Trani_25_04_2023\\trani_25_04_2023_3.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Trani_25_04_2023\\trani_25_04_2023_4.jpg",
+      "PackagePath": "staticwebassets\\img\\Trani_25_04_2023\\trani_25_04_2023_4.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Trani_25_04_2023\\trani_25_04_2023_5.jpg",
+      "PackagePath": "staticwebassets\\img\\Trani_25_04_2023\\trani_25_04_2023_5.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Trani_25_04_2023\\trani_25_04_2023_6.jpg",
+      "PackagePath": "staticwebassets\\img\\Trani_25_04_2023\\trani_25_04_2023_6.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\Vescovo.jpg",
+      "PackagePath": "staticwebassets\\img\\Vescovo.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\appuntamenti_2_9_2023.jpg",
+      "PackagePath": "staticwebassets\\img\\appuntamenti_2_9_2023.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\church.png",
+      "PackagePath": "staticwebassets\\img\\church.png"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\donAndreaConMinistranti.jpg",
+      "PackagePath": "staticwebassets\\img\\donAndreaConMinistranti.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_1.jpg",
+      "PackagePath": "staticwebassets\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_1.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_2.jpg",
+      "PackagePath": "staticwebassets\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_2.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_3.jpg",
+      "PackagePath": "staticwebassets\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_3.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_4.jpg",
+      "PackagePath": "staticwebassets\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_4.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_5.jpg",
+      "PackagePath": "staticwebassets\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_5.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_6.jpg",
+      "PackagePath": "staticwebassets\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_6.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_7.jpg",
+      "PackagePath": "staticwebassets\\img\\estate_ragazzi_2023_09_06_2023\\estate_ragazzi_2023_09_06_2023_7.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\facciata2.png",
+      "PackagePath": "staticwebassets\\img\\facciata2.png"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\festa_Madonna_Consolazione_09_06_2023\\festa_Madonna_Consolazione_09_06_2023_1.jpg",
+      "PackagePath": "staticwebassets\\img\\festa_Madonna_Consolazione_09_06_2023\\festa_Madonna_Consolazione_09_06_2023_1.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\festa_Madonna_Consolazione_09_06_2023\\festa_Madonna_Consolazione_09_06_2023_2.jpg",
+      "PackagePath": "staticwebassets\\img\\festa_Madonna_Consolazione_09_06_2023\\festa_Madonna_Consolazione_09_06_2023_2.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\festa_Madonna_Consolazione_09_06_2023\\festa_Madonna_Consolazione_09_06_2023_3.jpg",
+      "PackagePath": "staticwebassets\\img\\festa_Madonna_Consolazione_09_06_2023\\festa_Madonna_Consolazione_09_06_2023_3.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\festa_Madonna_Consolazione_09_06_2023\\festa_Madonna_Consolazione_09_06_2023_4.jpg",
+      "PackagePath": "staticwebassets\\img\\festa_Madonna_Consolazione_09_06_2023\\festa_Madonna_Consolazione_09_06_2023_4.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\immagine_Cristo_esterno_chiesa.png",
+      "PackagePath": "staticwebassets\\img\\immagine_Cristo_esterno_chiesa.png"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\internoChiesa.jpg",
+      "PackagePath": "staticwebassets\\img\\internoChiesa.jpg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\img\\internoChiesaSfocata.png",
+      "PackagePath": "staticwebassets\\img\\internoChiesaSfocata.png"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery\\dist\\jquery.simple-text-rotator.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.simple-text-rotator.js"
+    },
+    {
+      "Id": "D:\\Sito SSResurrezioneBR\\wwwroot\\lib\\jquery\\dist\\jquery.simple-text-rotator.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.simple-text-rotator.min.js"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.SSResurrezioneBR.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.SSResurrezioneBR.props",
+      "PackagePath": "build\\SSResurrezioneBR.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SSResurrezioneBR.props",
+      "PackagePath": "buildMultiTargeting\\SSResurrezioneBR.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.SSResurrezioneBR.props",
+      "PackagePath": "buildTransitive\\SSResurrezioneBR.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

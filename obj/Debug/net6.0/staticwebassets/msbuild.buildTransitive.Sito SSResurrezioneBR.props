@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Sito SSResurrezioneBR.props" />
+</Project>

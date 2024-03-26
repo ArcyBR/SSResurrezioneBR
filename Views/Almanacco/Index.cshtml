@@ -1,0 +1,157 @@
+﻿@model GenericListViewModel
+
+<div class="row">
+    <div class="col-md-8 text-center">
+        <h2>@ViewData["Title"]</h2>
+    </div>
+    <div class="col-md-4 d-flex align-items-center">
+        <form asp-controller="Almanacco" asp-action="Index" method="get">        
+            <div class="input-group rounded">
+                <input type="search" name="search" class="form-control rounded" placeholder="Cerca evento..." aria-label="Search" aria-describedby="search-addon" value="@Model.ListInputModel.Search"/>
+                <input type="hidden" name="chiamante" value="Almanacco" />
+                <button class="input-group-text border-0" id="search-addon">
+                    <i class="fas fa-search"></i>
+                </button>  
+            </div>
+        </form>
+    </div>
+</div>
+
+<p>
+<section>
+<div class="row">
+    <div class="col-md-1">
+        <order-link order-By="AlmanaccoDataEvento" input="@Model.ListInputModel">Data</order-link>
+        <!-- <a asp-route-orderBy="AlmanaccoDataEvento" asp-route-ascending='@(Model.ListInputModel.OrderBy=="AlmanaccoDataEvento"?!Model.ListInputModel.Ascending:true)' class="text-decoration-none" asp-route-search="@Model.ListInputModel.Search">Data @if(Model.ListInputModel.OrderBy=="AlmanaccoDataEvento"){<i class='fas fa-caret-@(Model.ListInputModel.Ascending?"up":"down")'></i>}</a> -->
+    </div>
+    <div class="col-md-6">
+        <order-link order-By="AlmanaccoTitolo" input="@Model.ListInputModel">Evento</order-link>
+        <!-- <a asp-route-orderBy="AlmanaccoTitolo" asp-route-ascending='@(Model.ListInputModel.OrderBy=="AlmanaccoTitolo"?!Model.ListInputModel.Ascending:true)' class="text-decoration-none" asp-route-search="@Model.ListInputModel.Search">Evento @if(Model.ListInputModel.OrderBy=="AlmanaccoTitolo"){<i class='fas fa-caret-@(Model.ListInputModel.Ascending?"up":"down")'></i>}</a> -->
+    </div>
+     <div class="col-md-3">
+        <span style="color: #0d6efd">Descrizione</span>
+    </div>
+     <div class="col-md-2 container d-flex justify-content-end">
+        <div>
+            <a class="btn btn-outline-primary btn-sm" asp-action="CreateAlmanaccoEvent"><i class="fas fa-plus"></i> Crea nuovo</a>
+        </div>
+    </div>
+</div>
+@{
+    foreach (AlmanaccoViewModel almanaccoViewModel in Model.ListAlmanaccoViewModel.Results) 
+    {
+    <div><hr /></div>
+    <div class="row">
+        <div class="col-md-1">
+            <div style="color:#466db8;" class="d-flex justify-content-center"> <h5><b>@almanaccoViewModel.AlmanaccoDataEvento.ToShortDateString()</b></h5></div>
+        </div>
+        <div class="col-md-6">
+            <div style="color:#466db8;" class="d-flex justify-content-center"> <h5><b>@almanaccoViewModel.AlmanaccoTitolo</b></h5></div>
+            <div style="cursor:zoom-in" class="d-flex justify-content-center customShadow">
+                <div id="carouselExampleDark@(almanaccoViewModel.AlmanaccoId)" class="carousel carousel-dark slide w-100">
+                    <div class="carousel-indicators" style="z-index: 1">
+                       @{
+                            int i = 0;                  
+                            foreach (AlmanaccoFotoViewModel almanaccoFoto in almanaccoViewModel.AlamanaccoFoto) 
+                            {
+                                <button type="button" data-bs-target="#carouselExampleDark@(almanaccoViewModel.AlmanaccoId)" data-bs-slide-to="@i" @(i == 0 ? "class=active" : "") @(i == 0 ? "aria-current=true" : "") aria-label="********"></button>
+                                i++;
+                            };
+                        }           
+                    </div>
+                    <div class="carousel-inner carousel-inner-cursor">
+                    @{              
+                        i = 0;
+                        foreach (AlmanaccoFotoViewModel almanaccoFoto in almanaccoViewModel.AlamanaccoFoto)
+                        {                       
+                            if (i == 0)
+                            {
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="@almanaccoFoto.AlmanaccoFotoPathFoto" onclick="openModal('@almanaccoFoto.AlmanaccoFotoPathFoto')" class="img-fluid" alt="" style="width:100%;height:360px" asp-append-version="true">
+                                </div>
+                            }else{                             
+                                <div class="carousel-item" data-bs-interval="3000">
+                                    <img src="@almanaccoFoto.AlmanaccoFotoPathFoto" onclick="openModal('@almanaccoFoto.AlmanaccoFotoPathFoto')" class="img-fluid" alt="" style="width:100%;height:360px" asp-append-version="true">
+                                </div>
+                            }                             
+                            i++;
+                        };
+                    }
+                    </div>            
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark@(almanaccoViewModel.AlmanaccoId)" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark@(almanaccoViewModel.AlmanaccoId)" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="d-flex justify-content-center customShadow">
+                <aside>
+                    <span html-sanitize>@almanaccoViewModel.AlmanaccoDescrizione</span>
+                </aside>
+            </div>
+            <div class="row p-2">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <a class="btn btn-outline-primary btn-sm mr-5" asp-controller="Almanacco" asp-action="EditEventoAlmanacco" asp-route-id="@almanaccoViewModel.AlmanaccoId"><i class="fas fa-pencil-alt"></i> Modifica</a>
+                </div>  
+                <div class="col-md-6 d-flex justify-content-center">
+                    <a href="#" class="btn btn-outline-danger btn-sm mr-5" data-bs-toggle="modal" data-bs-target="#exampleModal" data-value="@almanaccoViewModel.AlmanaccoTitolo"><i class="fas far fa-trash-alt"></i> Elimina</a>
+                    </div>  
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" style="z-index: 999999" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Conferma eliminazione Evento dell'Almanacco:<br /><span id="modalContent"></span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Sei sicuro di volere eliminare l'Evento?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
+                    <a type="button" class="btn btn-danger" asp-controller="Almanacco" asp-action="DeleteEventoAlmanacco" asp-route-id="@almanaccoViewModel.AlmanaccoId"><i class="fas far fa-trash-alt"></i> Elimina</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    }
+    <div id="myModal" class="modal" style="cursor:zoom-out" onclick="closeModal()">
+        <img src="" alt="" id="modalImage" asp-append-version="true">
+    </div>
+}
+<vc:pagination-bar model="@Model"></vc:pagination-bar>
+
+</section>
+<script>
+    function openModal(imageUrl) {
+        var modal = document.getElementById("myModal");
+        var modalImage = document.getElementById("modalImage");
+
+        modal.style.display = "block";
+        modalImage.src = imageUrl;
+        document.body.style.overflow = 'hidden';      
+    }
+
+    function closeModal() {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "none";
+        document.body.style.overflow = 'auto';
+    }
+
+    var myModal = document.getElementById('exampleModal');
+    myModal.addEventListener('show.bs.modal', function (event) {
+        var button = event.relatedTarget;
+        var recipient = button.getAttribute('data-value');
+        var modalContent = myModal.querySelector('#modalContent');
+        modalContent.textContent = recipient;
+    });
+</script>

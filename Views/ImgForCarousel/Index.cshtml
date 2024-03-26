@@ -1,0 +1,61 @@
+﻿@model ImgForCarouselDetailViewModel
+<div class="text-center">
+              <p><h2>Modifica Iniziativa: @ViewData["Title"]</h2></p>
+</div>
+<section>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="d-flex justify-content-center customShadow">
+          <img src="@Model.ImagePath" class="d-block w-100" alt="@Model.ImageLabel" asp-append-version="true">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="d-flex justify-content-center customShadow">
+          <aside html-sanitize>
+            @Model.ImageContentDescription
+          </aside>
+        </div>
+        <div class="row p-2">
+          <div class="col-md-6 d-flex justify-content-center">
+              <a class="btn btn-outline-primary btn-sm mr-5" asp-controller="Home" asp-action="EditInitiative" asp-route-id="@Model.ImageId"><i class="fas fa-pencil-alt"></i> Modifica</a>
+          </div>  
+          <div class="col-md-6 d-flex justify-content-center">
+              <a class="btn btn-outline-danger btn-sm mr-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas far fa-trash-alt"></i> Elimina</a>
+          </div>  
+        </div>
+      </div>
+    </div>
+</section>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" style="z-index: 999999" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Conferma eliminazione Iniziativa:<br/> @ViewData["Title"] </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Sei sicuro di volere eliminare l'Iniziativa?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
+                <button type="button" id="DeleteInitiative" class="btn btn-danger">Elimina</button>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+<script>
+    // JavaScript for confirmation popup
+    document.getElementById('DeleteInitiative').addEventListener('click', function () {
+        //var iniziativa = '@Model.ImageLabel';
+        //var result = confirm('Sei sicuro di voler cancellare l\'iniziativa \"' + iniziativa + '\"?');
+        //if (result) {
+            // User clicked OK, proceed with the deletion
+            window.location.href = '@Url.Action("DeleteInitiative", "Home", new { id = Model.ImageId })';
+        //} else {
+            // User clicked Cancel, do nothing or handle accordingly
+        //}
+    });
+</script>
+}

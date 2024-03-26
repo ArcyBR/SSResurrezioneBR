@@ -1,0 +1,44 @@
+@model AlmanaccoEditInputModel
+<section class="almanacco-info">
+    <form method="post" asp-controller="Almanacco" asp-action="EditEventoAlmanacco">
+        <div class="row p-2">
+            <div class="col-md-10">
+                <h1>@ViewData["Title"]</h1>
+            </div>
+            <div class="col-md-1 d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary btn-lg btn-block"><i class="fa-regular fa-floppy-disk"></i> Salva</button>
+            </div>
+            <div class="col-md-1 d-flex justify-content-center">
+                <button type="button" class="btn btn-warning btn-lg"><a style="text-decoration: none;"asp-route-chiamante="Almanacco" asp-area="" asp-controller="Almanacco" asp-action="Index"><i class="fas far fa-rotate-left"></i> Annulla</a></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" asp-validation-summary="All"></div>
+        </div>
+        <input type="hidden" asp-for="AlmanaccoId">
+        <input type="hidden" asp-for="AlmanaccoEventCreator" value="me medesimo modifica">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="AlmanaccoTitolo"></label>
+                    <input type="text" class="form-control form-control-lg" asp-for="AlmanaccoTitolo">
+                    <span asp-validation-for="AlmanaccoTitolo"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AlmanaccoDescrizione"></label>
+                    <textarea data-summernote rows="10" class="form-control" asp-for="AlmanaccoDescrizione"></textarea>
+                    <span asp-validation-for="AlmanaccoDescrizione"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AlmanaccoDataEvento"></label>
+                    <input class="form-control" asp-for="AlmanaccoDataEvento">
+                    <span asp-validation-for="AlmanaccoDataEvento"></span>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+@section Scripts{
+    <partial name="_Validation"></partial>
+    <partial name="_Summernote"></partial>
+}

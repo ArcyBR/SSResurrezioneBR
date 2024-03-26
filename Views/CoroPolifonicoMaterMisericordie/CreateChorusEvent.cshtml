@@ -1,0 +1,24 @@
+@model CreateEventCoroPolifonicoMaterMisericordieInputModel
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="post">
+    <div class="row">
+        <div class="col-12">
+            <div asp-validation-summary="All"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <input type="text" asp-for="Titolo_CoroPolifonicoMaterMisericordie" class="form-control form-control-lg" placeholder="Inserisci il titolo dell'evento">
+            <input type="hidden" asp-for="Chiamante" value="CoroPolifonicoMaterMisericordie">
+            <span asp-validation-for="Titolo_CoroPolifonicoMaterMisericordie"></span>
+        </div>
+        <div class="col-md-4">
+            <button type="submit" class="btn btn-primary btn-lg btn-block"><i class="fas fa-rocket"></i> Crea</button>
+        </div>
+    </div>
+</form>
+@section Scripts{
+    <partial name="_Validation"></partial>
+}
