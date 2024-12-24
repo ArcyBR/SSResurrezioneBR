@@ -7,7 +7,7 @@ namespace SSResurrezioneBR.Models.Exceptions
 {
     public class AlmanaccoEventoNotFoundException : Exception
     {
-        public AlmanaccoEventoNotFoundException (string titoloEvento, int id) : base ($"{titoloEvento} con Id: {id} non esiste.")
+        public AlmanaccoEventoNotFoundException (string titoloEvento, long id) : base ($"{titoloEvento} con Id: {id} non esiste.")
         {
             
         }

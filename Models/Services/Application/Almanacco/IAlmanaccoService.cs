@@ -12,10 +12,10 @@ namespace SSResurrezioneBR.Models.Services.Application.Almanacco
     {
         Task<AlmanaccoViewModel?> CreateEventAlmanaccoAsync(CreateEventAlmanaccoInputModel inputModel);
         Task<ListViewModel<AlmanaccoViewModel>?> GetAlmanaccosAsync(ListInputModel model);
-        Task<bool>IsTitleAvailableAsync(string titolo, int id);
+        Task<bool>IsTitleAvailableAsync(string titolo, long id);
         Task<AlmanaccoViewModel> EditEventoAlmanaccoAsync(AlmanaccoEditInputModel inputModel);
-        Task<AlmanaccoEditInputModel> GetAlmanaccoForEditingAsync(int id);
+        Task<AlmanaccoEditInputModel> GetAlmanaccoForEditingAsync(long id);
         Task<bool>CreateEventoAlmanaccoIsTitleAvailableAsync(string Title);
-        Task<string>DeleteEventoAlmanaccoAsync(int Id);
+        Task<string>DeleteEventoAlmanaccoAsync(long Id);
     }
 }

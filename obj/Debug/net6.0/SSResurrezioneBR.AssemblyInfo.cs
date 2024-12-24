@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SSResurrezioneBR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aad5c9b837be5babb9e5c9a97c01e635ec7e40b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+670644b288fc46134bbd722dd33eb24442ac0491")]
 [assembly: System.Reflection.AssemblyProductAttribute("SSResurrezioneBR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SSResurrezioneBR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

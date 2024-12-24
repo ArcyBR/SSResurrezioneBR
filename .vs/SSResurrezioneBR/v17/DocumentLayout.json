@@ -1,0 +1,595 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\viewmodel\\almanacco\\almanaccoeditinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\viewmodel\\almanacco\\almanaccoeditinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\viewmodel\\almanacco\\almanaccoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\viewmodel\\almanacco\\almanaccoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\viewmodel\\almanacco\\almanaccofotoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\viewmodel\\almanacco\\almanaccofotoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\views\\almanacco\\editeventoalmanacco.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:views\\almanacco\\editeventoalmanacco.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\controllers\\almanaccocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:controllers\\almanaccocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\views\\almanacco\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:views\\almanacco\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\viewmodel\\coropolifonicomatermisericordie\\coropolifonicomatermisericordiefotoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\viewmodel\\coropolifonicomatermisericordie\\coropolifonicomatermisericordiefotoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\viewmodel\\coropolifonicomatermisericordie\\coropolifonicomatermisericordielistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\viewmodel\\coropolifonicomatermisericordie\\coropolifonicomatermisericordielistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\controllers\\coropolifonicomatermisericordiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:controllers\\coropolifonicomatermisericordiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\services\\application\\almanacco\\efcorealmanaccoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\services\\application\\almanacco\\efcorealmanaccoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\viewmodel\\home\\imgforcarouseleditinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\viewmodel\\home\\imgforcarouseleditinputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\views\\coropolifonicomatermisericordie\\createchorusevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:views\\coropolifonicomatermisericordie\\createchorusevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\services\\application\\coropolifonicomatermisericordie\\efcorecoropolifonicomatermisericordieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\services\\application\\coropolifonicomatermisericordie\\efcorecoropolifonicomatermisericordieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\views\\coropolifonicomatermisericordie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:views\\coropolifonicomatermisericordie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\services\\application\\almanacco\\memorycachealmanaccoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\services\\application\\almanacco\\memorycachealmanaccoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\exceptions\\almanaccoeventonotfoundexception copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\exceptions\\almanaccoeventonotfoundexception copy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\services\\application\\almanacco\\distribuitedcachealmanaccoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\services\\application\\almanacco\\distribuitedcachealmanaccoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\exceptions\\imgnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\exceptions\\imgnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\services\\application\\coropolifonicomatermisericordie\\memorycachecoropolifonicomatermiisericordieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\services\\application\\coropolifonicomatermisericordie\\memorycachecoropolifonicomatermiisericordieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\controllers\\imgforcarouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:controllers\\imgforcarouselcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\views\\informazioni\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:views\\informazioni\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\services\\application\\almanacco\\ialmanaccoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\services\\application\\almanacco\\ialmanaccoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Arcangelo\\AppData\\Local\\Temp\\TFSTemp\\vctmp5076_76807.AlmanaccoController.00000000.HEAD.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\views\\shared\\components\\paginationbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:views\\shared\\components\\paginationbar\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\services\\application\\imgforcarousel\\imgforcarouselservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\services\\application\\imgforcarousel\\imgforcarouselservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\services\\application\\imgappuntamentidellasettimana\\imgappuntamentidellasettimanaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\services\\application\\imgappuntamentidellasettimana\\imgappuntamentidellasettimanaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\services\\application\\incarichi\\incarichiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\services\\application\\incarichi\\incarichiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\services\\application\\incarichi\\iincarichiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\services\\application\\incarichi\\iincarichiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\services\\application\\imgforcarousel\\iimgforcarouselservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\services\\application\\imgforcarousel\\iimgforcarouselservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\services\\application\\imgappuntamentidellasettimana\\iimgappuntamentidellasettimanaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\services\\application\\imgappuntamentidellasettimana\\iimgappuntamentidellasettimanaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\services\\application\\coropolifonicomatermisericordie\\icoropolifonicomatermisericordieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\services\\application\\coropolifonicomatermisericordie\\icoropolifonicomatermisericordieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|c:\\users\\arcangelo\\source\\repos\\ssresurrezionebr\\models\\exceptions\\coropolifonicomatermisericordieeventonotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776D19A2-2BBE-44C5-9D2A-9555C27D86CE}|SSResurrezioneBR.csproj|solutionrelative:models\\exceptions\\coropolifonicomatermisericordieeventonotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 253,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlmanaccoEditInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\ViewModel\\Almanacco\\AlmanaccoEditInputModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\Almanacco\\AlmanaccoEditInputModel.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\ViewModel\\Almanacco\\AlmanaccoEditInputModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\Almanacco\\AlmanaccoEditInputModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowBsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:49:04.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Views\\Almanacco\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Almanacco\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Views\\Almanacco\\Index.cshtml",
+              "RelativeToolTip": "Views\\Almanacco\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAADwvygAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T20:40:58.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlmanaccoController.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Controllers\\AlmanaccoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AlmanaccoController.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Controllers\\AlmanaccoController.cs",
+              "RelativeToolTip": "Controllers\\AlmanaccoController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAjwEQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T10:17:30.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditEventoAlmanacco.cshtml",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Views\\Almanacco\\EditEventoAlmanacco.cshtml",
+              "RelativeDocumentMoniker": "Views\\Almanacco\\EditEventoAlmanacco.cshtml",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Views\\Almanacco\\EditEventoAlmanacco.cshtml",
+              "RelativeToolTip": "Views\\Almanacco\\EditEventoAlmanacco.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T16:26:12.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AlmanaccoFotoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\ViewModel\\Almanacco\\AlmanaccoFotoViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\Almanacco\\AlmanaccoFotoViewModel.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\ViewModel\\Almanacco\\AlmanaccoFotoViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\Almanacco\\AlmanaccoFotoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:27:02.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlmanaccoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\ViewModel\\Almanacco\\AlmanaccoViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\Almanacco\\AlmanaccoViewModel.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\ViewModel\\Almanacco\\AlmanaccoViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\Almanacco\\AlmanaccoViewModel.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAuwAoAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:21:42.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CoroPolifonicoMaterMisericordieFotoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\ViewModel\\CoroPolifonicoMaterMisericordie\\CoroPolifonicoMaterMisericordieFotoViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\CoroPolifonicoMaterMisericordie\\CoroPolifonicoMaterMisericordieFotoViewModel.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\ViewModel\\CoroPolifonicoMaterMisericordie\\CoroPolifonicoMaterMisericordieFotoViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\CoroPolifonicoMaterMisericordie\\CoroPolifonicoMaterMisericordieFotoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:29:18.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CoroPolifonicoMaterMisericordieListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\ViewModel\\CoroPolifonicoMaterMisericordie\\CoroPolifonicoMaterMisericordieListViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\CoroPolifonicoMaterMisericordie\\CoroPolifonicoMaterMisericordieListViewModel.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\ViewModel\\CoroPolifonicoMaterMisericordie\\CoroPolifonicoMaterMisericordieListViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\CoroPolifonicoMaterMisericordie\\CoroPolifonicoMaterMisericordieListViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:29:22.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CoroPolifonicoMaterMisericordieController.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Controllers\\CoroPolifonicoMaterMisericordieController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CoroPolifonicoMaterMisericordieController.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Controllers\\CoroPolifonicoMaterMisericordieController.cs",
+              "RelativeToolTip": "Controllers\\CoroPolifonicoMaterMisericordieController.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAswG4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:07:49.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ImgForCarouselEditInputModel.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\ViewModel\\Home\\ImgForCarouselEditInputModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModel\\Home\\ImgForCarouselEditInputModel.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\ViewModel\\Home\\ImgForCarouselEditInputModel.cs",
+              "RelativeToolTip": "Models\\ViewModel\\Home\\ImgForCarouselEditInputModel.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAcwDgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T19:16:41.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EfCoreAlmanaccoService.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\Almanacco\\EfCoreAlmanaccoService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\Application\\Almanacco\\EfCoreAlmanaccoService.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\Almanacco\\EfCoreAlmanaccoService.cs",
+              "RelativeToolTip": "Models\\Services\\Application\\Almanacco\\EfCoreAlmanaccoService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwG8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T12:14:56.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EfCoreCoroPolifonicoMaterMisericordieService.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\CoroPolifonicoMaterMisericordie\\EfCoreCoroPolifonicoMaterMisericordieService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\Application\\CoroPolifonicoMaterMisericordie\\EfCoreCoroPolifonicoMaterMisericordieService.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\CoroPolifonicoMaterMisericordie\\EfCoreCoroPolifonicoMaterMisericordieService.cs",
+              "RelativeToolTip": "Models\\Services\\Application\\CoroPolifonicoMaterMisericordie\\EfCoreCoroPolifonicoMaterMisericordieService.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAuwJIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:10:51.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CoroPolifonicoMaterMisericordieEventoNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Exceptions\\CoroPolifonicoMaterMisericordieEventoNotFoundException.cs",
+              "RelativeDocumentMoniker": "Models\\Exceptions\\CoroPolifonicoMaterMisericordieEventoNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Exceptions\\CoroPolifonicoMaterMisericordieEventoNotFoundException.cs",
+              "RelativeToolTip": "Models\\Exceptions\\CoroPolifonicoMaterMisericordieEventoNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:09:01.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateChorusEvent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Views\\CoroPolifonicoMaterMisericordie\\CreateChorusEvent.cshtml",
+              "RelativeDocumentMoniker": "Views\\CoroPolifonicoMaterMisericordie\\CreateChorusEvent.cshtml",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Views\\CoroPolifonicoMaterMisericordie\\CreateChorusEvent.cshtml",
+              "RelativeToolTip": "Views\\CoroPolifonicoMaterMisericordie\\CreateChorusEvent.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T18:48:52.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DistribuitedCacheAlmanaccoService.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\Almanacco\\DistribuitedCacheAlmanaccoService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\Application\\Almanacco\\DistribuitedCacheAlmanaccoService.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\Almanacco\\DistribuitedCacheAlmanaccoService.cs",
+              "RelativeToolTip": "Models\\Services\\Application\\Almanacco\\DistribuitedCacheAlmanaccoService.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAlwF8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T18:08:30.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MemoryCacheCoroPolifonicoMaterMiisericordieService.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\CoroPolifonicoMaterMisericordie\\MemoryCacheCoroPolifonicoMaterMiisericordieService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\Application\\CoroPolifonicoMaterMisericordie\\MemoryCacheCoroPolifonicoMaterMiisericordieService.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\CoroPolifonicoMaterMisericordie\\MemoryCacheCoroPolifonicoMaterMiisericordieService.cs",
+              "RelativeToolTip": "Models\\Services\\Application\\CoroPolifonicoMaterMisericordie\\MemoryCacheCoroPolifonicoMaterMiisericordieService.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAcwEEAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:12:17.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MemoryCacheAlmanaccoService.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\Almanacco\\MemoryCacheAlmanaccoService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\Application\\Almanacco\\MemoryCacheAlmanaccoService.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\Almanacco\\MemoryCacheAlmanaccoService.cs",
+              "RelativeToolTip": "Models\\Services\\Application\\Almanacco\\MemoryCacheAlmanaccoService.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAtwEIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T18:19:31.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Views\\CoroPolifonicoMaterMisericordie\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CoroPolifonicoMaterMisericordie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Views\\CoroPolifonicoMaterMisericordie\\Index.cshtml",
+              "RelativeToolTip": "Views\\CoroPolifonicoMaterMisericordie\\Index.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAApwGoAAAC+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T18:16:31.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AlmanaccoEventoNotFoundException copy.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Exceptions\\AlmanaccoEventoNotFoundException copy.cs",
+              "RelativeDocumentMoniker": "Models\\Exceptions\\AlmanaccoEventoNotFoundException copy.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Exceptions\\AlmanaccoEventoNotFoundException copy.cs",
+              "RelativeToolTip": "Models\\Exceptions\\AlmanaccoEventoNotFoundException copy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:08:51.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ImgNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Exceptions\\ImgNotFoundException.cs",
+              "RelativeDocumentMoniker": "Models\\Exceptions\\ImgNotFoundException.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Exceptions\\ImgNotFoundException.cs",
+              "RelativeToolTip": "Models\\Exceptions\\ImgNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:09:08.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ImgForCarouselController.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Controllers\\ImgForCarouselController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ImgForCarouselController.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Controllers\\ImgForCarouselController.cs",
+              "RelativeToolTip": "Controllers\\ImgForCarouselController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAawAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:08:35.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Views\\Informazioni\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Informazioni\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Views\\Informazioni\\Index.cshtml",
+              "RelativeToolTip": "Views\\Informazioni\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-22T12:05:47.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAlmanaccoService.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\Almanacco\\IAlmanaccoService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\Application\\Almanacco\\IAlmanaccoService.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\Almanacco\\IAlmanaccoService.cs",
+              "RelativeToolTip": "Models\\Services\\Application\\Almanacco\\IAlmanaccoService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAABQwBEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:04:12.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "vctmp5076_76807.AlmanaccoController.00000000.HEAD.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\AppData\\Local\\Temp\\TFSTemp\\vctmp5076_76807.AlmanaccoController.00000000.HEAD.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\TFSTemp\\vctmp5076_76807.AlmanaccoController.00000000.HEAD.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\AppData\\Local\\Temp\\TFSTemp\\vctmp5076_76807.AlmanaccoController.00000000.HEAD.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\TFSTemp\\vctmp5076_76807.AlmanaccoController.00000000.HEAD.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T15:52:27.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAIAwwG4AAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:08:01.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Views\\Shared\\Components\\PaginationBar\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\PaginationBar\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Views\\Shared\\Components\\PaginationBar\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\PaginationBar\\Default.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAewA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-29T17:19:02.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ImgAppuntamentiDellaSettimanaService.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\ImgAppuntamentiDellaSettimana\\ImgAppuntamentiDellaSettimanaService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\Application\\ImgAppuntamentiDellaSettimana\\ImgAppuntamentiDellaSettimanaService.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\ImgAppuntamentiDellaSettimana\\ImgAppuntamentiDellaSettimanaService.cs",
+              "RelativeToolTip": "Models\\Services\\Application\\ImgAppuntamentiDellaSettimana\\ImgAppuntamentiDellaSettimanaService.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAewEoAAACRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:13:51.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ImgForCarouselService.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\ImgForCarousel\\ImgForCarouselService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\Application\\ImgForCarousel\\ImgForCarouselService.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\ImgForCarousel\\ImgForCarouselService.cs",
+              "RelativeToolTip": "Models\\Services\\Application\\ImgForCarousel\\ImgForCarouselService.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAewJwAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:15:03.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IncarichiService.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\Incarichi\\IncarichiService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\Application\\Incarichi\\IncarichiService.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\Incarichi\\IncarichiService.cs",
+              "RelativeToolTip": "Models\\Services\\Application\\Incarichi\\IncarichiService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAewCYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:15:39.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IIncarichiService.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\Incarichi\\IIncarichiService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\Application\\Incarichi\\IIncarichiService.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\Incarichi\\IIncarichiService.cs",
+              "RelativeToolTip": "Models\\Services\\Application\\Incarichi\\IIncarichiService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAewAwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:15:30.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IImgForCarouselService.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\ImgForCarousel\\IImgForCarouselService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\Application\\ImgForCarousel\\IImgForCarouselService.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\ImgForCarousel\\IImgForCarouselService.cs",
+              "RelativeToolTip": "Models\\Services\\Application\\ImgForCarousel\\IImgForCarouselService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIAxwBAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:14:23.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IImgAppuntamentiDellaSettimanaService.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\ImgAppuntamentiDellaSettimana\\IImgAppuntamentiDellaSettimanaService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\Application\\ImgAppuntamentiDellaSettimana\\IImgAppuntamentiDellaSettimanaService.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\ImgAppuntamentiDellaSettimana\\IImgAppuntamentiDellaSettimanaService.cs",
+              "RelativeToolTip": "Models\\Services\\Application\\ImgAppuntamentiDellaSettimana\\IImgAppuntamentiDellaSettimanaService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAhwAkAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:13:37.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ICoroPolifonicoMaterMisericordieService.cs",
+              "DocumentMoniker": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\CoroPolifonicoMaterMisericordie\\ICoroPolifonicoMaterMisericordieService.cs",
+              "RelativeDocumentMoniker": "Models\\Services\\Application\\CoroPolifonicoMaterMisericordie\\ICoroPolifonicoMaterMisericordieService.cs",
+              "ToolTip": "C:\\Users\\Arcangelo\\source\\repos\\SSResurrezioneBR\\Models\\Services\\Application\\CoroPolifonicoMaterMisericordie\\ICoroPolifonicoMaterMisericordieService.cs",
+              "RelativeToolTip": "Models\\Services\\Application\\CoroPolifonicoMaterMisericordie\\ICoroPolifonicoMaterMisericordieService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAIA6wBQAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T17:11:14.024Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

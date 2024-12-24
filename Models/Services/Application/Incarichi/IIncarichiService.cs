@@ -10,6 +10,6 @@ namespace SSResurrezioneBR.Models.Services.Application.Incarichi
     public interface IIncarichiService
     {
         Task<List<IncaricoViewModel>> GetIncarichiAsync();
-        Task<IncaricoDetailViewModel> GetIncaricoAsync(int id);
+        Task<IncaricoDetailViewModel> GetIncaricoAsync(long id);
     }
 }

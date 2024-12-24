@@ -7,11 +7,11 @@ namespace SSResurrezioneBR.Models.Services.Application.ImgForCarousel
     {
         Task<ImgForCarouselDetailViewModel> CreateInitiativeAsync(CreateInitiativeInputModel inputModel);
         Task<List<ImgForCarouselViewModel>> GetImgForCarouselAsync();
-        Task<ImgForCarouselDetailViewModel> GetImgForCarouselDetailAsync(int id);
-        Task<bool>IsTitleAvailableAsync(string title,int id);
+        Task<ImgForCarouselDetailViewModel> GetImgForCarouselDetailAsync(long id);
+        Task<bool>IsTitleAvailableAsync(string title,long id);
         Task<bool>CreateInitiativeIsTitleAvailableAsync(string title);
-        Task<ImgForCarouselEditInputModel> GetImgForCarouselForEditingAsync(int id);
+        Task<ImgForCarouselEditInputModel> GetImgForCarouselForEditingAsync(long id);
         Task<ImgForCarouselDetailViewModel> EditImgForCarouselAsync(ImgForCarouselEditInputModel inputModel);
-        Task DeleteInitiativeAsync (int id);
+        Task DeleteInitiativeAsync (long id);
     }
 }

@@ -6,8 +6,8 @@ namespace SSResurrezioneBR.Models.Services.Application.AppuntamentiDellaSettiman
     public interface IImgAppuntamentiDellaSettimanaService
     {
         Task<ImgAppuntamentiDellaSettimanaDetailViewModel> EditImgAppuntamentiDellaSettimanaAsync(ImgAppuntamentiDellaSettimanaEditInputModel inputModel);
-        Task<ImgAppuntamentiDellaSettimanaDetailViewModel> GetImgAppuntamentiDellaSettimanaDetailAsync(int id);
-        Task<ImgAppuntamentiDellaSettimanaEditInputModel> GetImgAppuntamentiDellaSettimanaForEditingAsync(int id);
+        Task<ImgAppuntamentiDellaSettimanaDetailViewModel> GetImgAppuntamentiDellaSettimanaDetailAsync(long id);
+        Task<ImgAppuntamentiDellaSettimanaEditInputModel> GetImgAppuntamentiDellaSettimanaForEditingAsync(long id);
         Task<ImgAppuntamentiDellaSettimanaViewModel> GetImgAppuntamentiDellaSettimanaAsync();
     }
 }

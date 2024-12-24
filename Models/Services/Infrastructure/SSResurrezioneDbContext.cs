@@ -49,6 +49,9 @@ public partial class SSResurrezioneDbContext : DbContext
                 .WithOne(AlmanaccoFoto => AlmanaccoFoto.IdAlmanaccoNavigation)
                 .HasForeignKey(AlmanaccoFoto => AlmanaccoFoto.IdAlmanacco)
                 .OnDelete(DeleteBehavior.ClientSetNull);
+
+            // global query filter
+            entity.HasQueryFilter(Almanacco => Almanacco.ImageVisibileAlmanacco != 0);
         });
 
         modelBuilder.Entity<AlmanaccoFoto>(entity =>
@@ -89,6 +92,9 @@ public partial class SSResurrezioneDbContext : DbContext
                 .WithOne(CoroPolifonicoMaterMisericordieFoto => CoroPolifonicoMaterMisericordieFoto.IdCoroPolifonicoMaterMisericordieNavigation)
                 .HasForeignKey(CoroPolifonicoMaterMisericordieFoto => CoroPolifonicoMaterMisericordieFoto.IdCoroPolifonicoMaterMisericordie)
                 .OnDelete(DeleteBehavior.ClientSetNull);
+            
+            // global query filter
+            entity.HasQueryFilter(CoroPolifonicoMaterMisericordie => CoroPolifonicoMaterMisericordie.ImageVisibileCoroPolifonicoMaterMisericordie != 0);
         });
         modelBuilder.Entity<CoroPolifonicoMaterMisericordieFoto>(entity =>
         {

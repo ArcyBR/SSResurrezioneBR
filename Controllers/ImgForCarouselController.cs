@@ -13,7 +13,7 @@ namespace SSResurrezioneBR.Controllers
             this._imgForCarousel = imgForCarousel;
         }
         // Controller di pagina di dettaglio delle attivitá
-        public async Task<IActionResult> Index(int id)
+        public async Task<IActionResult> Index(long id)
         {           
             ImgForCarouselDetailViewModel imgForCarouselDetailViewModel = new ();
             imgForCarouselDetailViewModel = await _imgForCarousel.GetImgForCarouselDetailAsync(id);

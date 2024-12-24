@@ -39,8 +39,8 @@ namespace SSResurrezioneBR.Controllers
         public async Task<IActionResult> CreateAlmanaccoEvent (CreateEventAlmanaccoInputModel inputModel){
             if (ModelState.IsValid){
                 try{
-                    AlmanaccoViewModel coroPolifonicoMaterMisericordie = await _almanacco.CreateEventAlmanaccoAsync(inputModel);
-                    return RedirectToAction(nameof(Index), inputModel); 
+                    AlmanaccoViewModel almanacco = await _almanacco.CreateEventAlmanaccoAsync(inputModel);
+                    return RedirectToAction(nameof(EditEventoAlmanacco), new { almanaccoId = almanacco.AlmanaccoId, almanaccoTitoloNuovoEvento = almanacco.AlmanaccoTitolo }); 
                 }catch(TitleUnavailableException){
                     ModelState.AddModelError(nameof(inputModel.Titolo_Almanacco), "Questo titolo giá esiste");
                 }
@@ -60,14 +60,21 @@ namespace SSResurrezioneBR.Controllers
             return Json(result);
         }
         public async Task<IActionResult> IsTitleAvailable(AlmanaccoEditInputModel inputModel){
-            bool result = await _almanacco.IsTitleAvailableAsync(inputModel.AlmanaccoTitolo.ToString(), (int) inputModel.AlmanaccoId);
+            bool result = await _almanacco.IsTitleAvailableAsync(inputModel.AlmanaccoTitolo.ToString(), inputModel.AlmanaccoId);
             return Json(result);
         }
 
-        public async Task<IActionResult> EditEventoAlmanacco(int id)
+        public async Task<IActionResult> EditEventoAlmanacco(long almanaccoId, string almanaccoTitoloNuovoEvento="")
         {
-            AlmanaccoEditInputModel viewModel = await _almanacco.GetAlmanaccoForEditingAsync(id);
-            ViewData["Title"] = "Modifica evento Almanacco: "+viewModel.AlmanaccoTitolo;
+            AlmanaccoEditInputModel viewModel = await _almanacco.GetAlmanaccoForEditingAsync(almanaccoId);
+            if (string.IsNullOrEmpty(almanaccoTitoloNuovoEvento))
+            {
+                ViewData["Title"] = "Modifica evento Almanacco: " + viewModel.AlmanaccoTitolo;
+            }
+            else
+            {
+                ViewData["Title"] = "Inserimento nuovo evento Almanacco: " + almanaccoTitoloNuovoEvento;
+            }
             return View(viewModel);
         }
 
@@ -88,7 +95,7 @@ namespace SSResurrezioneBR.Controllers
             return View(inputModel);
         }
 
-        public async Task<IActionResult> DeleteEventoAlmanacco(int Id)
+        public async Task<IActionResult> DeleteEventoAlmanacco(long Id)
         {
             string titoloEventoAlmanacco = await _almanacco.DeleteEventoAlmanaccoAsync(Id);
             TempData["MessaggioDiConferma"] = $"L\'evento dell'almanacco : {titoloEventoAlmanacco} è stato eliminato";

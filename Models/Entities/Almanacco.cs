@@ -5,12 +5,14 @@ namespace SSResurrezioneBR.Models.Entities;
 
 public class Almanacco
 {
-    public Almanacco (string titoloAlmanacco, string creatoreEventoAlmanacco){
+    public Almanacco (string titoloAlmanacco, string creatoreEventoAlmanacco, DateTime dataEventoAlmanacco)
+    {
         if (string.IsNullOrWhiteSpace(titoloAlmanacco)){
             throw new ArgumentException("Almanacco deve avere un titolo");
         }
         TitoloAlmanacco = titoloAlmanacco;
         CreatoreEventoAlmanacco = creatoreEventoAlmanacco;
+        DataEventoAlmanacco = dataEventoAlmanacco;
     }
     public long IdAlmanacco { get; private set; }
 
@@ -21,7 +23,6 @@ public class Almanacco
     public int? ImageVisibileAlmanacco { get; set; } = 1;
     public string? CreatoreEventoAlmanacco { get; set; }
     public string ? RowVersion { get; private set; }
-
     public virtual ICollection<AlmanaccoFoto> AlmanaccoFotos { get; private set; } = new List<AlmanaccoFoto>();
 
     public void ChangeTitle (string newTitoloAlmanacco){

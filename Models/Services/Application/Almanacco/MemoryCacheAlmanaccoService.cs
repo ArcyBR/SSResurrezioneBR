@@ -44,7 +44,7 @@ namespace SSResurrezioneBR.Models.Services.Application.Almanacco
             return almanaccoService.GetAlmanaccosAsync(model);
         }
 
-        public Task<bool> IsTitleAvailableAsync(string titolo, int id)
+        public Task<bool> IsTitleAvailableAsync(string titolo, long id)
         {
             return almanaccoService.IsTitleAvailableAsync(titolo, id);
         }
@@ -52,7 +52,7 @@ namespace SSResurrezioneBR.Models.Services.Application.Almanacco
         {
            return await almanaccoService.EditEventoAlmanaccoAsync(inputModel);
         }
-        public async Task<AlmanaccoEditInputModel> GetAlmanaccoForEditingAsync(int id){
+        public async Task<AlmanaccoEditInputModel> GetAlmanaccoForEditingAsync(long id){
             return await almanaccoService.GetAlmanaccoForEditingAsync(id);
         }
 
@@ -60,7 +60,7 @@ namespace SSResurrezioneBR.Models.Services.Application.Almanacco
         {
              return await almanaccoService.CreateEventoAlmanaccoIsTitleAvailableAsync(title);
         }
-        public async Task<string> DeleteEventoAlmanaccoAsync(int id)
+        public async Task<string> DeleteEventoAlmanaccoAsync(long id)
         {
             DeleteEventoAlmanaccoInputModel inputModel = new DeleteEventoAlmanaccoInputModel();
             memoryCache.Remove(inputModel.AlmanaccoEventId);

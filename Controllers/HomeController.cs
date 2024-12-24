@@ -108,11 +108,11 @@ public class HomeController : Controller
     }
 
     public async Task<IActionResult> IsTitleAvailable(ImgForCarouselEditInputModel inputModel){
-        bool result = await _imgForCarouselService.IsTitleAvailableAsync(inputModel.ImageContentTitle, (int)inputModel.ImageId);
+        bool result = await _imgForCarouselService.IsTitleAvailableAsync(inputModel.ImageContentTitle, (long)inputModel.ImageId);
         return Json(result);
     }
 
-    public async Task<IActionResult> EditInitiative(int id)
+    public async Task<IActionResult> EditInitiative(long id)
     {
         ImgForCarouselEditInputModel inputModel = await _imgForCarouselService.GetImgForCarouselForEditingAsync(id);
 
@@ -168,7 +168,7 @@ public class HomeController : Controller
         return View(inputModel);
     }
     
-    public async Task<IActionResult> DeleteInitiative(int id)
+    public async Task<IActionResult> DeleteInitiative(long id)
     {
         if (ModelState.IsValid)
         {
@@ -185,7 +185,7 @@ public class HomeController : Controller
         return RedirectToAction("Index", "Home");
     }
 
-    public async Task<IActionResult> EditAppuntamentiDellaSettimana(int id)
+    public async Task<IActionResult> EditAppuntamentiDellaSettimana(long id)
     {
         ViewData["Title"] = "Modifica Appuntamenti della Settimana";
         ImgAppuntamentiDellaSettimanaEditInputModel inputModel = await _imgAppuntamentiDellaSettimanaService.GetImgAppuntamentiDellaSettimanaForEditingAsync(id);

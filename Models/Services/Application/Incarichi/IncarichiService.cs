@@ -31,7 +31,7 @@ namespace SSResurrezioneBR.Models.Services.Application.Incarichi
             return incarichiList;
         }
 
-        public Task<IncaricoDetailViewModel> GetIncaricoAsync(int id)
+        public Task<IncaricoDetailViewModel> GetIncaricoAsync(long id)
         {
             throw new NotImplementedException();
         }

@@ -7,7 +7,7 @@ namespace SSResurrezioneBR.Models.Exceptions
 {
     public class CoroPolifonicoMaterMisericordieEventoNotFoundException : Exception
     {
-        public CoroPolifonicoMaterMisericordieEventoNotFoundException (string titoloEvento, int id) : base ($"{titoloEvento} con Id: {id} non esiste.")
+        public CoroPolifonicoMaterMisericordieEventoNotFoundException (string titoloEvento, long id) : base ($"{titoloEvento} con Id: {id} non esiste.")
         {
             
         }

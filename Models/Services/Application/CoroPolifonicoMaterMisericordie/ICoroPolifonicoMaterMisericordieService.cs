@@ -13,11 +13,11 @@ namespace SSResurrezioneBR.Models.Services.Application.CoroPolifonicoMaterMiseri
     {
         Task<CoroPolifonicoMaterMisericordieViewModel> CreateEventCoroPolifonicoMaterMisericordieAsync(CreateEventCoroPolifonicoMaterMisericordieInputModel inputModel);
         Task<ListViewModel<CoroPolifonicoMaterMisericordieViewModel>> GetCoroPolifonicoMaterMisericordiesAsync(ListInputModel model);
-        Task<bool>IsTitleAvailableAsync(string title, int id);
+        Task<bool>IsTitleAvailableAsync(string title, long id);
         Task<CoroPolifonicoMaterMisericordieViewModel> EditEventoCoroPolifonicoMaterMisericordieAsync(CoroPolifonicoMaterMisericordieEditInputModel inputModel);
-        Task<CoroPolifonicoMaterMisericordieEditInputModel> GetCoroPolifonicoMaterMisericordieForEditingAsync(int id);
+        Task<CoroPolifonicoMaterMisericordieEditInputModel> GetCoroPolifonicoMaterMisericordieForEditingAsync(long id);
         Task<bool>CreateEventoCoroPolifonicoMaterMisericordieIsTitleAvailableAsync(string Title);
         Task DeletePhotoFromEventCoroPolifonicoMaterMisericordieAsync(DeletePhotoFromEventCoroPolifonicoMaterMisericordieInputModel inputModel);
-        Task<string> DeleteEventoCoroPolifonicoMaterMisericordieAsync(int Id);
+        Task<string> DeleteEventoCoroPolifonicoMaterMisericordieAsync(long Id);
     }
 }

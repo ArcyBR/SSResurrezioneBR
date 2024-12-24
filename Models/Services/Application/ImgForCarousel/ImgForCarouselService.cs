@@ -38,7 +38,7 @@ namespace SSResurrezioneBR.Models.Services.Application.ImgForCarousel
             return imgForCarouselList;
         }
 
-        public async Task<ImgForCarouselDetailViewModel> GetImgForCarouselDetailAsync(int id)
+        public async Task<ImgForCarouselDetailViewModel> GetImgForCarouselDetailAsync(long id)
         {
             logger.LogInformation("Chiamato il metodo {0} ", nameof(GetImgForCarouselDetailAsync));
 
@@ -77,7 +77,7 @@ namespace SSResurrezioneBR.Models.Services.Application.ImgForCarousel
                 throw new TitleUnavailableException("Iniziativa", inputModel.Image_Content_Title!, exc);
             }
         }
-        public async Task<bool> IsTitleAvailableAsync(string titolo, int id){
+        public async Task<bool> IsTitleAvailableAsync(string titolo, long id){
             bool titleExist = await db.QueryScalarAsync<bool>($"Select count(*) from Img_For_Carousel where Image_Content_Title like {titolo} and Image_Id<>{id} and Image_Visible = 1");
             return !titleExist;
         }
@@ -87,7 +87,7 @@ namespace SSResurrezioneBR.Models.Services.Application.ImgForCarousel
             return !titleExist;
         }
 
-        public async Task<ImgForCarouselEditInputModel> GetImgForCarouselForEditingAsync(int id){
+        public async Task<ImgForCarouselEditInputModel> GetImgForCarouselForEditingAsync(long id){
             FormattableString query = @$"Select Image_Id, Image_path, Image_label, Image_Content_Title, Image_Visible, Image_Content_Description, Image_Event_Creator, RowVersion from Img_For_Carousel 
                                 where Image_Visible=1 and Image_id = {id}";
             DataSet dataSet = await db.QueryAsync(query);
@@ -101,7 +101,7 @@ namespace SSResurrezioneBR.Models.Services.Application.ImgForCarousel
             return imgForCarouselEditInputModel;
         }
 
-        public async Task DeleteInitiativeAsync (int id){
+        public async Task DeleteInitiativeAsync (long id){
             string eventCreator = "me medesimo";
             
             int affectedRows = await db.CommandAsync($@"UPDATE Img_For_Carousel SET Image_Visible = 0, 
@@ -142,7 +142,7 @@ namespace SSResurrezioneBR.Models.Services.Application.ImgForCarousel
                     }
                     else
                     {
-                        throw new ImgNotFoundException("Iniziativa", (int)inputModel.ImageId!);
+                        throw new ImgNotFoundException("Iniziativa", (long)inputModel.ImageId!);
                     }
                 }
             }
@@ -154,7 +154,7 @@ namespace SSResurrezioneBR.Models.Services.Application.ImgForCarousel
                 throw new ImgInvalidException(inputModel.Image!, exc);
             }
 
-            ImgForCarouselDetailViewModel imgForCarousel = await GetImgForCarouselDetailAsync((int)inputModel.ImageId!);
+            ImgForCarouselDetailViewModel imgForCarousel = await GetImgForCarouselDetailAsync((long)inputModel.ImageId!);
             return imgForCarousel;
         }
     }

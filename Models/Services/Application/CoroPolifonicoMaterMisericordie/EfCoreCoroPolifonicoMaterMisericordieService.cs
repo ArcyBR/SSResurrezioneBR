@@ -53,7 +53,7 @@ namespace SSResurrezioneBR.Models.Services.Application.CoroPolifonicoMaterMiseri
 
             IQueryable<CoroPolifonicoMaterMisericordieViewModel> queryLinq = baseQuery
             .AsNoTracking()
-            .Where (coroPolifonicoMaterMisericordie => coroPolifonicoMaterMisericordie.ImageVisibileCoroPolifonicoMaterMisericordie == 1 && coroPolifonicoMaterMisericordie.TitoloCoroPolifonicoMaterMisericordie.ToUpper().Contains(model.Search.ToUpper()))
+            .Where (coroPolifonicoMaterMisericordie => coroPolifonicoMaterMisericordie.TitoloCoroPolifonicoMaterMisericordie.ToUpper().Contains(model.Search.ToUpper()))
             .Include(coroPolifonicoMaterMisericordie => coroPolifonicoMaterMisericordie.CoroPolifonicoMaterMisericordieFotos)
             .Select(coroPolifonicoMaterMisericordie => CoroPolifonicoMaterMisericordieViewModel.FromEntity(coroPolifonicoMaterMisericordie));
             
@@ -88,7 +88,7 @@ namespace SSResurrezioneBR.Models.Services.Application.CoroPolifonicoMaterMiseri
             return CoroPolifonicoMaterMisericordieViewModel.FromEntity(coroPolifonicoMaterMisericordie);
         }
 
-        public async Task<CoroPolifonicoMaterMisericordieEditInputModel> GetCoroPolifonicoMaterMisericordieForEditingAsync(int id)
+        public async Task<CoroPolifonicoMaterMisericordieEditInputModel> GetCoroPolifonicoMaterMisericordieForEditingAsync(long id)
         {
             IQueryable<CoroPolifonicoMaterMisericordieEditInputModel> queryLinq = dbContext.CoroPolifonicoMaterMisericordies
                 .AsNoTracking()
@@ -128,7 +128,7 @@ namespace SSResurrezioneBR.Models.Services.Application.CoroPolifonicoMaterMiseri
             return CoroPolifonicoMaterMisericordieViewModel.FromEntity(coro);
         }
 
-        public async Task<bool> IsTitleAvailableAsync(string titolo, int id)
+        public async Task<bool> IsTitleAvailableAsync(string titolo, long id)
         {
             bool titleExist = await dbContext.CoroPolifonicoMaterMisericordies.AnyAsync(coroPolifonicoMaterMisericordie => EF.Functions.Like(coroPolifonicoMaterMisericordie.TitoloCoroPolifonicoMaterMisericordie, titolo));
             bool idExist = await dbContext.CoroPolifonicoMaterMisericordies.AnyAsync(coroPolifonicoMaterMisericordie => EF.Functions.Like(coroPolifonicoMaterMisericordie.IdCoroPolifonicoMaterMisericordie.ToString(), id.ToString()));
@@ -152,7 +152,7 @@ namespace SSResurrezioneBR.Models.Services.Application.CoroPolifonicoMaterMiseri
             dbContext.SaveChanges();
         }
 
-        public async Task<string> DeleteEventoCoroPolifonicoMaterMisericordieAsync(int Id)
+        public async Task<string> DeleteEventoCoroPolifonicoMaterMisericordieAsync(long Id)
         {
             var queryLinq = dbContext.CoroPolifonicoMaterMisericordies.Find((long)Id);
 

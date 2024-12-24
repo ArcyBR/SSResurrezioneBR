@@ -24,7 +24,7 @@ namespace SSResurrezioneBR.Models.Services.Application.ImgAppuntamentiDellaSetti
             this.db = db;
             this.imagePersister = imagePersister;
         }
-        public async Task<ImgAppuntamentiDellaSettimanaDetailViewModel> GetImgAppuntamentiDellaSettimanaDetailAsync(int id)
+        public async Task<ImgAppuntamentiDellaSettimanaDetailViewModel> GetImgAppuntamentiDellaSettimanaDetailAsync(long id)
         {
             logger.LogInformation("Chiamato il metodo {0} ", nameof(GetImgAppuntamentiDellaSettimanaDetailAsync));
 
@@ -61,7 +61,7 @@ namespace SSResurrezioneBR.Models.Services.Application.ImgAppuntamentiDellaSetti
                         }
                         else
                         {
-                            throw new ImgNotFoundException("Appuntamento della Settimana", (int)inputModel.IdFoto!);
+                            throw new ImgNotFoundException("Appuntamento della Settimana", (long)inputModel.IdFoto!);
                         }
                         
                     }
@@ -72,11 +72,11 @@ namespace SSResurrezioneBR.Models.Services.Application.ImgAppuntamentiDellaSetti
                 throw new ImgInvalidException(inputModel.Image!, exc);
             }
 
-            ImgAppuntamentiDellaSettimanaDetailViewModel imgAppuntamentiDellaSettimana = await GetImgAppuntamentiDellaSettimanaDetailAsync((int)inputModel.IdFoto!);
+            ImgAppuntamentiDellaSettimanaDetailViewModel imgAppuntamentiDellaSettimana = await GetImgAppuntamentiDellaSettimanaDetailAsync((long)inputModel.IdFoto!);
             return imgAppuntamentiDellaSettimana;
         }
 
-        public async Task<ImgAppuntamentiDellaSettimanaEditInputModel> GetImgAppuntamentiDellaSettimanaForEditingAsync(int id)
+        public async Task<ImgAppuntamentiDellaSettimanaEditInputModel> GetImgAppuntamentiDellaSettimanaForEditingAsync(long id)
         {
             FormattableString query = @$"Select IdFoto, PathFoto, ReviewerFoto, RowVersion from AppuntamentiDellaSettimana_Foto 
                                 where IdFoto = {id}";

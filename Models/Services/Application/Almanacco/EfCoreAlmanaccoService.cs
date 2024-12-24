@@ -24,20 +24,25 @@ namespace SSResurrezioneBR.Models.Services.Application.Almanacco
             this.ssResurrezioneOptions = ssResurrezioneOptions;
         }
 
-        public async Task<AlmanaccoViewModel> CreateEventAlmanaccoAsync(CreateEventAlmanaccoInputModel inputModel){
-            string titoloAlmanacco = inputModel.Titolo_Almanacco;
+        public async Task<AlmanaccoViewModel?> CreateEventAlmanaccoAsync(CreateEventAlmanaccoInputModel inputModel){
+            string titoloAlmanacco = inputModel.Titolo_Almanacco!;
             string creatoreEventoAlmanacco = "me medesimo";
-            var almanacco = new Entities.Almanacco (titoloAlmanacco, creatoreEventoAlmanacco);
+            DateTime dataEventoAlmanacco = DateTime.Now;
+
+            var almanacco = new Entities.Almanacco(titoloAlmanacco, creatoreEventoAlmanacco, dataEventoAlmanacco);
+            var entityEntry = await dbContext.Almanaccos.AddAsync(almanacco);
+
             dbContext.Add(almanacco);
             try
             {
                 await dbContext.SaveChangesAsync();
+                long id = entityEntry.Entity.IdAlmanacco;
             }
             catch (DbUpdateException exc) when ((exc.InnerException as SqliteException)?.SqliteErrorCode == 19)
             {
                 throw new TitleUnavailableException("Almanacco",titoloAlmanacco, exc);
             }
-            
+
             return AlmanaccoViewModel.FromEntity(almanacco);
         }
         public async Task<ListViewModel<AlmanaccoViewModel>> GetAlmanaccosAsync(ListInputModel model)
@@ -66,7 +71,7 @@ namespace SSResurrezioneBR.Models.Services.Application.Almanacco
 
             IQueryable<AlmanaccoViewModel> queryLinq = baseQuery
             .AsNoTracking()
-            .Where (almanacco => almanacco.ImageVisibileAlmanacco == 1 && almanacco.TitoloAlmanacco.ToUpper().Contains(model.Search.ToUpper()))
+            .Where (almanacco => almanacco.TitoloAlmanacco.ToUpper().Contains(model.Search.ToUpper()))
             .Include(almanacco => almanacco.AlmanaccoFotos)   
             .Select(almanacco => AlmanaccoViewModel.FromEntity(almanacco));
             
@@ -84,7 +89,7 @@ namespace SSResurrezioneBR.Models.Services.Application.Almanacco
 
             return result;
         }
-        public async Task<AlmanaccoEditInputModel> GetAlmanaccoForEditingAsync(int id)
+        public async Task<AlmanaccoEditInputModel> GetAlmanaccoForEditingAsync(long id)
         {
             IQueryable<AlmanaccoEditInputModel> queryLinq = dbContext.Almanaccos
                 .AsNoTracking()
@@ -122,7 +127,7 @@ namespace SSResurrezioneBR.Models.Services.Application.Almanacco
             }
             return AlmanaccoViewModel.FromEntity(almanacco);
         }
-        public async Task<bool> IsTitleAvailableAsync(string titolo, int id){
+        public async Task<bool> IsTitleAvailableAsync(string titolo, long id){
             bool titleExist = await dbContext.Almanaccos.AnyAsync(almanacco => EF.Functions.Like(almanacco.TitoloAlmanacco, titolo));
             bool idExist = await dbContext.Almanaccos.AnyAsync(almanacco => EF.Functions.Like(almanacco.IdAlmanacco.ToString(), id.ToString()));
             if(titleExist && idExist){
@@ -137,17 +142,14 @@ namespace SSResurrezioneBR.Models.Services.Application.Almanacco
             return !titleExist;
         }
 
-        public async Task<string> DeleteEventoAlmanaccoAsync(int Id)
+        public async Task<string> DeleteEventoAlmanaccoAsync(long Id)
         {
-            var queryLinq = dbContext.Almanaccos.Find((long)Id);
+            var queryLinq = await dbContext.Almanaccos.FindAsync((long)Id);
 
             if (queryLinq == null)
             {
                 logger.LogWarning("Almanacco evento {id} not found", Id);
-                if (queryLinq != null)
-                {
-                    throw new AlmanaccoEventoNotFoundException(queryLinq.TitoloAlmanacco!, Id);
-                }
+                throw new AlmanaccoEventoNotFoundException(queryLinq.TitoloAlmanacco!, Id);
             }
 
             // la cancellazione è di tipo logico

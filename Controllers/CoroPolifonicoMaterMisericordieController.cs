@@ -67,19 +67,19 @@ namespace SSResurrezioneBR.Controllers
             return View("Error!");
         }
 
-        public async Task<IActionResult> CreateEventoCoroPolifonicoMaterMisericordieIsTitleAvailable(CreateEventAlmanaccoInputModel inputModel)
+        public async Task<IActionResult> CreateEventoCoroPolifonicoMaterMisericordieIsTitleAvailable(CreateEventCoroPolifonicoMaterMisericordieInputModel inputModel)
         {
-            bool result = await _coroPolifonicoMaterMisericordie.CreateEventoCoroPolifonicoMaterMisericordieIsTitleAvailableAsync(inputModel.Titolo_Almanacco);
+            bool result = await _coroPolifonicoMaterMisericordie.CreateEventoCoroPolifonicoMaterMisericordieIsTitleAvailableAsync(inputModel.Titolo_CoroPolifonicoMaterMisericordie);
             return Json(result);
         }
 
         public async Task<IActionResult> IsTitleAvailable(CoroPolifonicoMaterMisericordieEditInputModel inputModel)
         {
-            bool result = await _coroPolifonicoMaterMisericordie.IsTitleAvailableAsync(inputModel.CoroPolifonicoMaterMisericordieTitolo, (int)inputModel.CoroPolifonicoMaterMisericordieId);
+            bool result = await _coroPolifonicoMaterMisericordie.IsTitleAvailableAsync(inputModel.CoroPolifonicoMaterMisericordieTitolo, (long)inputModel.CoroPolifonicoMaterMisericordieId);
             return Json(result);
         }
 
-        public async Task<IActionResult> EditEventoCoroPolifonicoMaterMisericordie(int id)
+        public async Task<IActionResult> EditEventoCoroPolifonicoMaterMisericordie(long id)
         {
             CoroPolifonicoMaterMisericordieEditInputModel viewModel = await _coroPolifonicoMaterMisericordie.GetCoroPolifonicoMaterMisericordieForEditingAsync(id);
             ViewData["Title"] = "Modifica evento Coro: " + viewModel.CoroPolifonicoMaterMisericordieTitolo;
@@ -109,11 +109,11 @@ namespace SSResurrezioneBR.Controllers
         public async Task<IActionResult> DeletePhotoFromEventCoroPolifonicoMaterMisericordie(DeletePhotoFromEventCoroPolifonicoMaterMisericordieInputModel inputModel)
         {
             await _coroPolifonicoMaterMisericordie.DeletePhotoFromEventCoroPolifonicoMaterMisericordieAsync(inputModel);
-            TempData["MessaggioDiConferma"] = "L\'immagine riferita all\'evento del coro: {} è stata eliminata";
+            TempData["MessaggioDiConferma"] = $"L\'immagine riferita all\'evento del coro: {inputModel.CoroPolifonicoMaterMisericordieEventTitle} è stata eliminata";
             return RedirectToAction(nameof(CoroPolifonicoMaterMisericordieController.Index), "CoroPolifonicoMaterMisericordie", new { CoroPolifonicoMaterMisericordieEventId = inputModel.CoroPolifonicoMaterMisericordieEventId });
         }
 
-        public async Task<IActionResult> DeleteEventoCoroPolifonicoMaterMisericordie(int Id)
+        public async Task<IActionResult> DeleteEventoCoroPolifonicoMaterMisericordie(long Id)
         {
             string titoloEventoCoro = await _coroPolifonicoMaterMisericordie.DeleteEventoCoroPolifonicoMaterMisericordieAsync(Id);
             TempData["MessaggioDiConferma"] = $"L\'evento del coro: {titoloEventoCoro} è stato eliminato";

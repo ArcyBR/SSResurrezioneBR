@@ -75,11 +75,11 @@ namespace SSResurrezioneBR.Models.Services.Application.Almanacco
         {
             throw new NotImplementedException();
         }
-        public async Task<AlmanaccoEditInputModel> GetAlmanaccoForEditingAsync(int id){
+        public async Task<AlmanaccoEditInputModel> GetAlmanaccoForEditingAsync(long id){
             throw new NotImplementedException();
         }
 
-        public Task<bool> IsTitleAvailableAsync(string titolo, int id)
+        public Task<bool> IsTitleAvailableAsync(string titolo, long id)
         {
             throw new NotImplementedException();
         }
@@ -88,7 +88,7 @@ namespace SSResurrezioneBR.Models.Services.Application.Almanacco
         {
             throw new NotImplementedException();
         }
-        public async Task<string> DeleteEventoAlmanaccoAsync(int id)
+        public Task<string> DeleteEventoAlmanaccoAsync(long id)
         {
             throw new NotImplementedException();
         }

@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Data;
 using Microsoft.AspNetCore.Mvc;
 using SSResurrezioneBR.Controllers;
+using SSResurrezioneBR.Models.Entities;
 
 namespace SSResurrezioneBR.Models.ViewModel.Almanacco
 {
@@ -48,7 +49,7 @@ namespace SSResurrezioneBR.Models.ViewModel.Almanacco
                 AlmanaccoTitolo = almanacco.TitoloAlmanacco,
                 AlmanaccoDataEvento = almanacco.DataEventoAlmanacco,
                 AlmanaccoEventCreator = almanacco.CreatoreEventoAlmanacco,
-                AlmanaccoRowVersion = almanacco.RowVersion
+                AlmanaccoRowVersion = almanacco.RowVersion,
             };
         }
     }

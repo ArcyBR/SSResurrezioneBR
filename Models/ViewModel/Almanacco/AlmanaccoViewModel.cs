@@ -13,7 +13,7 @@ namespace SSResurrezioneBR.Models.ViewModel.Almanacco
         {
             AlamanaccoFoto = new List<AlmanaccoFotoViewModel>();
         }
-        public int? AlmanaccoId {get; set;}
+        public long? AlmanaccoId {get; set;}
         public string? AlmanaccoDescrizione {get; set;}
         public string? AlmanaccoTitolo {get; set;}
         public DateTime AlmanaccoDataEvento {get;set;}

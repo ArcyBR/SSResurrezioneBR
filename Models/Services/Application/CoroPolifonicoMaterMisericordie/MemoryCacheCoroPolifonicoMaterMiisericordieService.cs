@@ -40,7 +40,7 @@ namespace SSResurrezioneBR.Models.Services.Application.CoroPolifonicoMaterMiseri
             });
         }
 
-        public Task<bool> IsTitleAvailableAsync(string titolo, int id)
+        public Task<bool> IsTitleAvailableAsync(string titolo, long id)
         {
            return coroPolifonicoMaterMisericordieService.IsTitleAvailableAsync(titolo, id);
         }
@@ -48,7 +48,7 @@ namespace SSResurrezioneBR.Models.Services.Application.CoroPolifonicoMaterMiseri
         {
            return await coroPolifonicoMaterMisericordieService.EditEventoCoroPolifonicoMaterMisericordieAsync(inputModel);
         }
-        public async Task<CoroPolifonicoMaterMisericordieEditInputModel> GetCoroPolifonicoMaterMisericordieForEditingAsync(int id){
+        public async Task<CoroPolifonicoMaterMisericordieEditInputModel> GetCoroPolifonicoMaterMisericordieForEditingAsync(long id){
             return await coroPolifonicoMaterMisericordieService.GetCoroPolifonicoMaterMisericordieForEditingAsync(id);
         }
 
@@ -63,7 +63,7 @@ namespace SSResurrezioneBR.Models.Services.Application.CoroPolifonicoMaterMiseri
             memoryCache.Remove(inputModel.CoroPolifonicoMaterMisericordiePhotoId);
             memoryCache.Remove(inputModel.CoroPolifonicoMaterMisericordieEventId);
         }
-        public async Task<string> DeleteEventoCoroPolifonicoMaterMisericordieAsync(int id)
+        public async Task<string> DeleteEventoCoroPolifonicoMaterMisericordieAsync(long id)
         {
             DeleteEventoCoroPolifonicoMaterMisericordieInputModel inputModel = new DeleteEventoCoroPolifonicoMaterMisericordieInputModel();
             memoryCache.Remove(inputModel.CoroPolifonicoMaterMisericordieEventId);

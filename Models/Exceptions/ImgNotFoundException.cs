@@ -7,7 +7,7 @@ namespace SSResurrezioneBR.Models.Exceptions
 {
     public class ImgNotFoundException: Exception
     {
-        public ImgNotFoundException(string tipoEvento, int id) : base ($"{tipoEvento} con Id: {id} non esiste.")
+        public ImgNotFoundException(string tipoEvento, long id) : base ($"{tipoEvento} con Id: {id} non esiste.")
         {
             
         }
